@@ -24,7 +24,7 @@ function App() {
         
         {!isAuth?(
         <Link to="/login">LOGIN</Link> ) : (
-         <> <Link to="/createpost">POST</Link>
+         <> <Link to="/createpost">CREATE POST</Link>
         <button onClick={signUserOut}> LOGOUT </button>
         </>
         )}
