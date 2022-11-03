@@ -26,8 +26,8 @@ function CreatePost({isAuth}) {
       <div className='cpContainer'>
         <h1>create a post</h1>
         <div className='inputGp'>
-          <label>Titel:</label>
-          <input placeholder='Titel' onChange={(event)=>{setTitel(event.target.value);}}></input>
+          <label>Title:</label>
+          <input placeholder='Title' onChange={(event)=>{setTitel(event.target.value);}}></input>
         </div>
         <div className='inputGp'>
           <label>post:</label>
